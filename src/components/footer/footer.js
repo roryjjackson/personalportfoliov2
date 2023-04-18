@@ -14,10 +14,10 @@ function Footer() {
           </div>
           <ul>
             <button>Contact me</button>
-            <li><FontAwesomeIcon icon={faInstagram} /></li>
-            <li><FontAwesomeIcon icon={faFacebook} /></li>
-            <li><FontAwesomeIcon icon={faLinkedin} /></li>
-            <li><FontAwesomeIcon icon={faGithub} /></li>
+            <li id="instagram"><FontAwesomeIcon icon={faInstagram} /></li>
+            <li id="facebook"><FontAwesomeIcon icon={faFacebook} /></li>
+            <li id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></li>
+            <li id="github"><FontAwesomeIcon icon={faGithub} /></li>
           </ul>
         </div>
       </div>

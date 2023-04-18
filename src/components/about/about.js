@@ -9,15 +9,15 @@ function About() {
       <div className='about-container'>
         <div className='standard-block about'>
           <div>
-            <h1>Im Rory, a full stack developer doing shit</h1>
-            <p>Ive been designing and implementing small apps for companies etc etc etc</p>
+            <h1>Im Rory, a full stack developer working on multiple projects</h1>
+            <p>Ruby, Rails, React, Javascript ES6, PostgreSQL, Heroku</p>
           </div>
           <ul>
             <button>Contact me</button>
-            <li><FontAwesomeIcon icon={faInstagram} /></li>
-            <li><FontAwesomeIcon icon={faFacebook} /></li>
-            <li><FontAwesomeIcon icon={faLinkedin} /></li>
-            <li><FontAwesomeIcon icon={faGithub} /></li>
+            <li id="instagram"><FontAwesomeIcon icon={faInstagram} /></li>
+            <li id="facebook"><FontAwesomeIcon icon={faFacebook} /></li>
+            <li id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></li>
+            <li id="github"><FontAwesomeIcon icon={faGithub} /></li>
           </ul>
         </div>
         <div className='standard-block img'>

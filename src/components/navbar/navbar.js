@@ -17,7 +17,7 @@ function Navbar() {
           Rory Jackson
         </a>
         <button className="navbar-toggle" onClick={toggle}>
-        <FontAwesomeIcon icon={faBars} size="lg" />
+          <FontAwesomeIcon icon={faBars} size="lg" />
         </button>
         <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-item">

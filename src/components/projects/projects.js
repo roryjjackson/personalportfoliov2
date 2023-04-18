@@ -15,13 +15,21 @@ function Projects() {
       <div className='projects-container'>
           {projects.map(project => {
             return(
-              <div className='standard-block projects' style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,00)),url(${project.img_url})`}}>
-                <h2>{project.title}</h2>
-                <p>{project.tag}</p>
-                {/* <a href={{project.link_url}}></a> */}
-              </div>
+                <div className='standard-block projects' style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,00)),url(${project.img_url})`}}>
+                  <h2>{project.title}</h2>
+                  <p>{project.tag}</p>
+                </div>
             )
           })}
+          {/* {projects.map(project => {
+            return(
+              <div className='standard-block projects'>
+                <img src={project.img_url} alt=""></img>
+                <h2>{project.title}</h2>
+                <p>{project.tag}</p>
+              </div>
+            )
+          })} */}
       </div>
     )
 }
