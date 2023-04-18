@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import './navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner, faBars } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +16,11 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="/" className="navbar-logo">
-          My Logo
+          Rory Jackson
         </a>
         <button className="navbar-toggle" onClick={toggle}>
-          <p>something to toggle</p>
+        <FontAwesomeIcon icon={faBars} size="lg" />
+        {/* <FontAwesomeIcon icon={faSpinner} spin size="lg" /> */}
         </button>
         <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-item">
