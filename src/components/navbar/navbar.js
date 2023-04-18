@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner, faBars } from '@fortawesome/free-solid-svg-icons'
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

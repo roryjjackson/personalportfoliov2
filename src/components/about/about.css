@@ -1,4 +1,27 @@
 .about-container {
+  height: 100%;
   display: flex;
-  width: 100%;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about h1, p {
+  text-align: left;
+  padding: 1rem;
+}
+
+.about ul {
+  padding: 1rem;
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.about li {
+  margin-right: 20px;
 }
