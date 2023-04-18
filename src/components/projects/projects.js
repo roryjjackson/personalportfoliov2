@@ -2,17 +2,26 @@ import React from 'react';
 import './projects.css';
 
 function Projects() {
+
+  let projects = [
+    {title: "something", tag: "something else to describe", img_url: "https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg", link_url: ""},
+    {title: "something", tag: "something else to describe", img_url: "https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg", link_url: ""},
+    {title: "something", tag: "something else to describe", img_url: "https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg", link_url: ""},
+    {title: "something", tag: "something else to describe", img_url: "https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg", link_url: ""},
+    {title: "something", tag: "something else to describe", img_url: "https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg", link_url: ""}
+  ]
   return (
       <div className='projects-container'>
-        <div className='standard-block'>
-          <h1>Im Rory, a full stack developer doing shit</h1>
-          <p>Ive been designing and implementing small apps for companies etc etc etc</p>
-          <ul>
-            <li>Github</li>
-            <li>Instagram</li>
-            <li>linkedIn</li>
-            <li>Contact me</li>
-          </ul>
+        <div>
+          {projects.map(project => {
+            return(
+              <div className='standard-block projects' style={{backgroundImage: `url(${project.img_url})`}}>
+                <h2>{project.title}</h2>
+                <p>{project.tag}</p>
+                <p>{project.link_url}</p>
+              </div>
+            )
+          })}
         </div>
       </div>
     )
