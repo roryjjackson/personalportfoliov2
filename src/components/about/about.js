@@ -17,8 +17,7 @@ function About() {
             <li><FontAwesomeIcon icon={faGithub} size="lg"/></li>
           </ul>
         </div>
-        <div className='standard-block'>
-          <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1681717882/28003-1671435885_irrmqv.webp" alt=""></img>
+        <div className='standard-block img'>
         </div>
       </div>
     )
