@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './navbar.css'
-import { faSpinner, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
@@ -18,7 +18,6 @@ function Navbar() {
         </a>
         <button className="navbar-toggle" onClick={toggle}>
         <FontAwesomeIcon icon={faBars} size="lg" />
-        {/* <FontAwesomeIcon icon={faSpinner} spin size="lg" /> */}
         </button>
         <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-item">
