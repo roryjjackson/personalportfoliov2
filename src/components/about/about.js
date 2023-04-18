@@ -8,13 +8,16 @@ function About() {
   return (
       <div className='about-container'>
         <div className='standard-block about'>
-          <h1>Im Rory, a full stack developer doing shit</h1>
-          <p>Ive been designing and implementing small apps for companies etc etc etc</p>
+          <div>
+            <h1>Im Rory, a full stack developer doing shit</h1>
+            <p>Ive been designing and implementing small apps for companies etc etc etc</p>
+          </div>
           <ul>
-            <li><FontAwesomeIcon icon={faInstagram} size="lg"/></li>
-            <li><FontAwesomeIcon icon={faFacebook} size="lg"/></li>
-            <li><FontAwesomeIcon icon={faLinkedin} size="lg"/></li>
-            <li><FontAwesomeIcon icon={faGithub} size="lg"/></li>
+            <button>Contact me</button>
+            <li><FontAwesomeIcon icon={faInstagram} /></li>
+            <li><FontAwesomeIcon icon={faFacebook} /></li>
+            <li><FontAwesomeIcon icon={faLinkedin} /></li>
+            <li><FontAwesomeIcon icon={faGithub} /></li>
           </ul>
         </div>
         <div className='standard-block img'>
