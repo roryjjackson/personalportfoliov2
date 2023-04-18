@@ -1,20 +1,23 @@
-import React from 'react'
+import React from 'react';
+import './footer.css';
 
-class Footer extends React.Component {
+function Footer() {
 
-  render() {
-    return (
-      <nav>
-        <p>Rory Jackson</p>
-        <div>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+  return (
+      <div className='footer-container'>
+        <div className='standard-block'>
+          <h1>Don't be shy, get in touch</h1>
+          <p>Feel free to reach out for collaborations or just a friendly hello</p>
+          <ul>
+            <li>Github</li>
+            <li>Instagram</li>
+            <li>linkedIn</li>
+            <li>Contact me</li>
+          </ul>
         </div>
-      </nav>
+      </div>
     )
-  }
 }
+
 
 export default Footer;
