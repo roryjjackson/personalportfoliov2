@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from '../navbar/navbar';
-import Contact from '../contact/contact'
 import Projects from '../projects/projects'
 import About from '../about/about';
 import Footer from '../footer/footer';
@@ -11,11 +10,11 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
+    setTimeout(() => setLoading(false), 2500);
   }, []);
 
   return (
-    <div className={`App ${loading ? 'hidden' : 'slide-in'}`}>
+    <div className={`App ${loading ? 'hidden' : 'slide-in'}`} id="home">
       {loading ? <Loader /> : (
         <>
           <Navbar className="slide-in" />

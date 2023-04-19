@@ -1,3 +1,54 @@
-.standard-block.projects {
+.projects-container {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.projects {
   color: white;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.8s ease;
+  height: 500px;
+}
+
+.projects:hover {
+  transform: skew(-1deg);
+}
+
+.projects h2, p {
+  text-align: left;
+  padding: 5px;
+}
+
+.projects p {
+  font-weight: 500;
+  padding: 5px;
+}
+
+.projects-a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+  .projects-container {
+    display: block;
+  }
+
+  .projects {
+    margin-bottom: 1rem;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 550px) {
+  .projects {
+    height: 230px;
+  }
 }
