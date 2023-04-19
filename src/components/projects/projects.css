@@ -36,6 +36,29 @@
   color: rgba(255, 255, 255, 0.623);
 }
 
+.codebase-button {
+  margin: auto 0;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .1s ease-in-out;
+}
+
+.codebase-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.codebase-button:hover {
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
 @media only screen and (min-width: 1px) and (max-width: 768px) {
   .projects-container {
     display: block;
