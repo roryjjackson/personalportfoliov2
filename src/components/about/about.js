@@ -10,15 +10,27 @@ function About() {
         <div className='standard-block about'>
           <div>
             <h1>Im Rory, a full stack developer working on multiple projects</h1>
-            <p>Ruby, Rails, React, Javascript ES6, PostgreSQL, Heroku</p>
+            <p>Ruby, Rails, React, Javascript ES6, HTML5, SCSS, PostgreSQL, Heroku</p>
           </div>
-          <ul>
-            <button>Contact me</button>
-            <li id="instagram"><FontAwesomeIcon icon={faInstagram} /></li>
-            <li id="facebook"><FontAwesomeIcon icon={faFacebook} /></li>
-            <li id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></li>
-            <li id="github"><FontAwesomeIcon icon={faGithub} /></li>
-          </ul>
+          <div className='about-buttons'>
+            <button>
+              <a href="mailto:roryjamesjackson@hotmail.com" id="contact-button-a">Contact Me</a>
+            </button>
+            <ul>
+              <a className="social-media-icon" href="https://github.com/roryjjackson" target="_blank" rel="noreferrer">
+                <li id="github"><FontAwesomeIcon icon={faGithub} /></li>
+              </a>
+              <a className="social-media-icon" href="https://www.facebook.com/jacksonrory3/" target="_blank" rel="noreferrer">
+                <li id="facebook"><FontAwesomeIcon icon={faFacebook} /></li>
+              </a>
+              <a className="social-media-icon" href="https://www.instagram.com/jackson_rory_/" target="_blank" rel="noreferrer">
+                <li id="instagram"><FontAwesomeIcon icon={faInstagram} /></li>
+              </a>
+              <a className="social-media-icon" href="https://www.linkedin.com/in/roryjjackson/" target="_blank" rel="noreferrer">
+                <li id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></li>
+              </a>
+            </ul>
+          </div>
         </div>
         <div className='standard-block img'>
         </div>

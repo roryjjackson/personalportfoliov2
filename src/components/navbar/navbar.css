@@ -23,6 +23,10 @@
   text-decoration: none;
 }
 
+.navbar-logo:hover {
+  color: rgba(0, 0, 0, 0.644);
+}
+
 .navbar-toggle {
   color: black;
   font-size: 1.5rem;
@@ -62,6 +66,7 @@
   right: 0;
   transform: translateX(100%);
   transition: all 0.2s ease-in-out;
+  font-size: 2rem;
 }
 
 .navbar-menu.active {
@@ -78,6 +83,14 @@
   color: black;
   text-decoration: none;
   text-align: left;
+}
+
+.navbar-link:hover {
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.bars:hover {
+  color: rgba(0, 0, 0, 0.644);
 }
 
 @media (min-width: 768px) {
