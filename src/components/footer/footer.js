@@ -25,9 +25,9 @@ function Footer() {
               <a className="social-media-icon" href="https://www.instagram.com/jackson_rory_/" target="_blank" rel="noreferrer">
                 <li id="instagram"><FontAwesomeIcon icon={faInstagram} /></li>
               </a>
-              <a className="social-media-icon" href="https://www.linkedin.com/in/roryjjackson/" target="_blank" rel="noreferrer">
+              {/* <a className="social-media-icon" href="https://www.linkedin.com/in/roryjjackson/" target="_blank" rel="noreferrer">
                 <li id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></li>
-              </a>
+              </a> */}
             </ul>
           </div>
         </div>
